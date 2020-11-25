@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.huisartsenapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Huisartsen app</name>
+    <description>
+        Huisartsen app
+  </description>
+    <author email="bia.paulaa@gmail.com" href="https://biadev.co">
+    Bianca de Paula
+  </author>
+    <access origin="http://code.jquery.com" subdomains="true" />
+    <content src="index.html" />
+    <splash src="splash.png" />
+    <icon src="splash.png" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon qualifier="ldpi" src="res/icon/android/splash.png" />
+    <icon qualifier="mdpi" src="res/icon/android/splash.png" />
+    <icon qualifier="hdpi" src="res/icon/android/splash.png" />
+    <icon qualifier="xhdpi" src="res/icon/android/splash.png" />
+    <icon qualifier="xxhdpi" src="res/icon/android/splash.png" />
+    <icon qualifier="xxxhdpi" src="res/icon/android/splash.png" />
+    <gap:splash qualifier="port-hdpi" src="res/screen/android/splash.png" />
+    <allow-intent href="market:*" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="orientation" value="portrait" />
+    <preference name="phonegap-version" value="cli-9.0.0" />
+    <preference name="pgb-builder-version" value="2" />
+    <preference name="fullscreen" value="false" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+</widget>
